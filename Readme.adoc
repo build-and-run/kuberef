@@ -1,2 +1,36 @@
-Kubernetes Reference
---------------------
+= Kubernetes Reference
+
+== Packaging projects
+
+. link:https://github.com/kubernetes-sigs/kustomize[Kustomize]
+. link:https://helm.sh/[Helm]
+.. link:https://github.com/helm/chartmuseum[Chart Museum]
+
+
+== Service mesh projects
+
+. link:https://istio.io/[Istio]
+. link:https://linkerd.io/[Linkerd]
+
+
+== Ingress-controller projects
+
+. link:https://github.com/helm/charts/tree/master/stable/nginx-ingress?ref=kubedexcom[nginx]
+. link:https://docs.traefik.io/user-guide/kubernetes/[Traefik]
+. link:https://www.haproxy.com/fr/blog/haproxy_ingress_controller_for_kubernetes/[HAProxy]
+. link:https://github.com/Kong/kubernetes-ingress-controller[Kong]
+
+
+== Container Network Interfaces - CNI projects
+
+link:https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-10gbit-s-network-36475925a560[CNI Benchmark]
+
+. Calico v3.3
+. Canal v3.3 (which is in fact Flannel for network + Calico for firewalling)
+. Cilium 1.3.0
+. Flannel 0.10.0
+. Kube-router 0.2.1
+. Romana 2.0.2
+. WeaveNet 2.4.1
+
+== Container Runtime Interface - CRI projects
