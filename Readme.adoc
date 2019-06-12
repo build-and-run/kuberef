@@ -32,23 +32,51 @@ image:https://landscape.cncf.io/logos/kubernetes.svg["Kubernetes logo",align="ce
 
 == Service mesh projects
 
-[cols="2*^.^"]
+[cols="2*^.^",options="header"]
 |===
-|image:https://landscape.cncf.io/logos/istio.svg["cri-o logo",width=256,link:"https://istio.io/",width=128] 
-|image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+| Project Name
+| image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
 
-|image:https://landscape.cncf.io/logos/linkerd.svg["rkt logo",width=64,link:"https://linkerd.io/"] 
-|image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+|image:https://landscape.cncf.io/logos/istio.svg["Istio logo",link=https://istio.io/,width=128] 
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dark_Red_x.svg/600px-Dark_Red_x.svg.png["Red cross mark",width=64]
+
+|image:https://landscape.cncf.io/logos/linkerd.svg["LinkerD logo",link=https://linkerd.io/,width=128]
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Echo_curation_alt_check_mark.svg/96px-Echo_curation_alt_check_mark.svg.png["Green check mark",width=64]
 |===
 
 
-== Ingress-controller projects
+== Ingress controller projects
 
-. link:https://github.com/helm/charts/tree/master/stable/nginx-ingress?ref=kubedexcom[nginx]
-. link:https://docs.traefik.io/user-guide/kubernetes/[Traefik]
-. link:https://www.haproxy.com/fr/blog/haproxy_ingress_controller_for_kubernetes/[HAProxy]
-. link:https://github.com/Kong/kubernetes-ingress-controller[Kong]
+=== Calssic
 
+[cols="2*^.^",options="header"]
+|===
+| Project Name
+| image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+
+|image:https://landscape.cncf.io/logos/nginx.svg["nginx logo",link=https://www.nginx.com/,width=128]
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dark_Red_x.svg/600px-Dark_Red_x.svg.png["Red cross mark",width=64]
+
+|image:https://landscape.cncf.io/logos/traefik.svg["Traefik logo",link=https://docs.traefik.io/user-guide/kubernetes/,width=64]
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dark_Red_x.svg/600px-Dark_Red_x.svg.png["Red cross mark",width=64]
+
+|image:https://landscape.cncf.io/logos/ha-proxy.svg["HAProxy logo",link=https://www.haproxy.com/fr/blog/haproxy_ingress_controller_for_kubernetes/,width=64]
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dark_Red_x.svg/600px-Dark_Red_x.svg.png["Red cross mark",width=64]
+|===
+
+=== API Gateway
+
+[cols="2*^.^",options="header"]
+|===
+| Project Name
+| image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+
+|image:https://landscape.cncf.io/logos/gloo.svg["Gloo logo",link=https://github.com/Kong/kubernetes-ingress-controller,width=128]
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dark_Red_x.svg/600px-Dark_Red_x.svg.png["Red cross mark",width=64]
+
+|image:https://landscape.cncf.io/logos/kong.svg["Kong logo",link=https://konghq.com/,width=256]
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dark_Red_x.svg/600px-Dark_Red_x.svg.png["Red cross mark",width=64]
+|===
 
 == Container Network Interfaces - CNI projects
 
@@ -64,35 +92,62 @@ link:https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-
 
 == Container Runtime Interface - link:https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/[CRI projects]
 
-[cols="2*^.^"]
+[cols="2*^.^",options="header"]
 |===
-|image:https://landscape.cncf.io/logos/cri-o.svg["cri-o logo",width=256,link:"https://cri-o.io/",width=128] 
-|image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+| Project Name
+| image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
 
-|image:https://landscape.cncf.io/logos/rkt.svg["rkt logo",width=64,link:"https://github.com/rkt/rkt"] 
-|image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+|image:https://landscape.cncf.io/logos/cri-o.svg["cri-o logo",link=https://cri-o.io/,width=128] 
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Echo_curation_alt_check_mark.svg/96px-Echo_curation_alt_check_mark.svg.png["Green check mark",width=64]
+
+|image:https://landscape.cncf.io/logos/rkt.svg["rkt logo",link=https://github.com/rkt/rkt,width=64] 
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Echo_curation_alt_check_mark.svg/96px-Echo_curation_alt_check_mark.svg.png["Green check mark",width=64]
 |===
 
 == Container registry
 
-[cols="2*^.^"]
+[cols="2*^.^",options="header"]
 |===
-|image:https://landscape.cncf.io/logos/harbor.svg["harbor logo",width=256,link:"https://goharbor.io/",width=128]
-|image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+| Project Name
+| image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+|image:https://landscape.cncf.io/logos/harbor.svg["harbor logo",link=https://goharbor.io/,width=64]
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Echo_curation_alt_check_mark.svg/96px-Echo_curation_alt_check_mark.svg.png["Green check mark",width=64]
 |===
 
 == Storage 
 
-[cols="2*^.^"]
+[cols="2*^.^",options="header"]
 |===
-|image:https://landscape.cncf.io/logos/rook.svg["rook logo",width=256,link:"https://rook.io/",width=128]
-|image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+| Project Name
+| image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+|image:https://landscape.cncf.io/logos/rook.svg["rook logo",link=https://rook.io/,width=64]
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Echo_curation_alt_check_mark.svg/96px-Echo_curation_alt_check_mark.svg.png["Green check mark",width=64]
 |===
 
 == Backup
 
+[cols="2*^.^",options="header"]
+|===
+| Project Name
+| image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+
+|image:https://landscape.cncf.io/logos/project-velero.svg["rook logo",link=https://heptio.com/community/velero/,width=256]
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dark_Red_x.svg/600px-Dark_Red_x.svg.png["Red cross mark",width=64]
+|===
 
 
+== CI/CD for Kube 
+[cols="2*^.^",options="header"]
+|===
+| Project Name
+| image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
 
-== Other 
-image:https://landscape.cncf.io/logos/spinnaker.svg[width=128]
+|image:https://landscape.cncf.io/logos/git-lab.svg["Gitlab logo",link=https://about.gitlab.com/,width=128]
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dark_Red_x.svg/600px-Dark_Red_x.svg.png["Red cross mark",width=64]
+
+|image:https://landscape.cncf.io/logos/drone.svg["Drone logo",link=http://try.drone.io/,width=128]
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dark_Red_x.svg/600px-Dark_Red_x.svg.png["Red cross mark",width=64]
+
+|image:https://landscape.cncf.io/logos/spinnaker.svg["Spinnaker logo",link=https://www.spinnaker.io/,width=128]
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dark_Red_x.svg/600px-Dark_Red_x.svg.png["Red cross mark",width=64]
+|===
