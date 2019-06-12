@@ -1,4 +1,27 @@
 = Kubernetes Reference
+:author: Build and Run
+:email: contact@build-and-run.fr
+:revnumber: 1.0 
+:revdate: 12-06-2019
+:sectnums:
+:toc:
+
+A reference guide-book for 
+image:https://landscape.cncf.io/logos/kubernetes.svg["Kubernetes logo",align="center",width=128]
+
+== Deployment 
+
+=== Cloud way 
+. GKE
+. EKS
+. KOPS
+. AKS
+
+=== Standalone way
+. Dockermachine
+. Minikube
+. Microk8s
+
 
 == Packaging projects
 
@@ -9,8 +32,14 @@
 
 == Service mesh projects
 
-. link:https://istio.io/[Istio]
-. link:https://linkerd.io/[Linkerd]
+[cols="2*^.^"]
+|===
+|image:https://landscape.cncf.io/logos/istio.svg["cri-o logo",width=256,link:"https://istio.io/",width=128] 
+|image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+
+|image:https://landscape.cncf.io/logos/linkerd.svg["rkt logo",width=64,link:"https://linkerd.io/"] 
+|image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+|===
 
 
 == Ingress-controller projects
@@ -33,4 +62,37 @@ link:https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-
 . Romana 2.0.2
 . WeaveNet 2.4.1
 
-== Container Runtime Interface - CRI projects
+== Container Runtime Interface - link:https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/[CRI projects]
+
+[cols="2*^.^"]
+|===
+|image:https://landscape.cncf.io/logos/cri-o.svg["cri-o logo",width=256,link:"https://cri-o.io/",width=128] 
+|image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+
+|image:https://landscape.cncf.io/logos/rkt.svg["rkt logo",width=64,link:"https://github.com/rkt/rkt"] 
+|image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+|===
+
+== Container registry
+
+[cols="2*^.^"]
+|===
+|image:https://landscape.cncf.io/logos/harbor.svg["harbor logo",width=256,link:"https://goharbor.io/",width=128]
+|image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+|===
+
+== Storage 
+
+[cols="2*^.^"]
+|===
+|image:https://landscape.cncf.io/logos/rook.svg["rook logo",width=256,link:"https://rook.io/",width=128]
+|image:https://landscape.cncf.io/images/right-logo.svg["Cloud Native Computing Foundation",width=256]
+|===
+
+== Backup
+
+
+
+
+== Other 
+image:https://landscape.cncf.io/logos/spinnaker.svg[width=128]
